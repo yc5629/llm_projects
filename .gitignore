@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environment
+RAG/.venv/
+
+# Logs
+RAG/logs/
+*.log
+
+# Environment variables
+.env
+
+# Chroma vector store
+RAG/chroma_storage/
+RAG/chroma_db/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VS Code config
+.vscode/
+
+# macOS
+.DS_Store

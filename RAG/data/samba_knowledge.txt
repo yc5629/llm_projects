@@ -1,0 +1,16 @@
+Title: Internal Knowledge Base - SambaNova Cloud FAQ
+
+Q: What is SambaNova Systems Cloud?
+A: It is a cloud-based platform for running high-performance AI models using SambaNova’s hardware and software stack. It supports OpenAI-compatible APIs.
+
+Q: What models are available?
+A: Models include E5-Mistral-7B-Instruct for embeddings, Meta-Llama-3.2-8B-Instruct for chat, and Qwen3-32B for general purpose text generation.
+
+Q: How do I access the API?
+A: You can use your API key and send POST requests to https://api.sambanova.ai/v1. Make sure to use the proper headers and JSON structure.
+
+Q: Can I run Retrieval-Augmented Generation (RAG) with it?
+A: Yes. You can embed custom documents using E5-Mistral and use those embeddings to build a vector database with ChromaDB or FAISS.
+
+Q: Do I need a GPU?
+A: No, the cloud service handles inference and embedding on SambaNova's infrastructure, so you can run everything from a local machine.
